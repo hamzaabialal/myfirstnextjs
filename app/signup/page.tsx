@@ -75,7 +75,7 @@ export default function SignupPage() {
       <button
         onClick={onSignup}
         disabled={buttonDisabled}
-        className="p-2 bg-blue-500 text-white rounded-lg mb-4 disabled:opacity-50"
+        className="p-2 bg-blue-500 text-white rounded-lg mb-4 disabled:opacity-50"  
       >
         {buttonDisabled ? "Fill All Fields" : "Signup"}
       </button>
